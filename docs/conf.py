@@ -120,7 +120,7 @@ html_theme_options = {'canonical_url': 'doc.qngnode.cc',
                           # Toc options
                           'collapse_navigation': False, # We  want tree-like navigation
                           #'sticky_navigation': False,
-                          #'navigation_depth': 4,
+                          'navigation_depth': 4,
                           # 'includehidden': True,
                           # 'titles_only': False
                           }
