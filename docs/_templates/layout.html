@@ -1,0 +1,28 @@
+{% extends "!layout.html" %}
+{% block extrahead %}
+<link href="{{ pathto("_static/style.css", True) }}" rel="stylesheet" type="text/css">
+<meta name="google-site-verification" content="JVzTMPjsCY-U-SaJERGf-eviRxXUPfFkPFdiF_MINCU" />
+<meta name="author" content="The QuantumNode Group." />
+<meta name="copyright" content="© Copyright 2020 The QuantumNode Group" /></br>
+<script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "url": "https://qngnode.cc",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://docs.dash.org"
+        },
+        "publisher": {
+            "@type": "Organization",
+            "name": "The QuantumNode Group.",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https://docs.dash.org/en/stable/_images/dash_logo.png",
+                "width": 1446,
+                "height": 424
+            }
+        }
+    }
+</script>
+{% endblock %}
